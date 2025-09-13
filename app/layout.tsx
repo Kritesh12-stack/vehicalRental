@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Vehicle Rental',
-  description: 'Car & Bike Rental Service',
+  title: 'AutoMart - Find Your Perfect Second-Hand Vehicle',
+  description: 'Discover thousands of quality pre-owned cars and bikes from trusted sellers',
 }
 
 export default function RootLayout({
