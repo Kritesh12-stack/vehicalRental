@@ -102,7 +102,7 @@ export default function Home() {
 
       <section className="categories">
         <h2>Browse by Category</h2>
-        <p>Find exactly what you're looking for</p>
+        <p>Find exactly what you&apos;re looking for</p>
         <div className="category-grid">
           <div className="category-card">
             <div className="category-icon blue">🚗</div>
@@ -129,6 +129,7 @@ export default function Home() {
             <div key={vehicle.id} className="vehicle-card">
               {vehicle.featured && <span className="featured-badge">Featured</span>}
               <div className="vehicle-image">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={vehicle.image} alt={vehicle.name} />
                 <button className="heart-btn">❤️</button>
               </div>
